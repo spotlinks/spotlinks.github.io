@@ -602,7 +602,7 @@ and (max-width : 1024px) {
 
 	.cbp-af-header {display: none;}
 
-  	#header {background:url('#') #222; height:500px;}
+  	#header {height:500px;}
 
 	#header .twelve.columns { margin-top:10%; text-align: center;  }
 
