@@ -530,7 +530,7 @@ and (max-width : 568px) {
 
 	.cbp-af-header {display: none;}
 
-	#header {background:url('../img/header.jpg')  #363f48 fixed 0% 0%; height:450px;}
+	#header {background:url('../img/header.jpg')  #363f48 fixed 0% 20% !important; height:450px;}
 
 	#header .logo {text-align: center;}
 
