@@ -225,7 +225,9 @@ nav {
 
 .social-stuff {
 	padding:20px 0;}
-
+.fb-like span {
+	opacity: 1;
+}
 
 /* 04. CONTAINER SECTION ================================================== */
 
