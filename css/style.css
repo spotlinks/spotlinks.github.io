@@ -209,7 +209,10 @@ nav {
 	background:url('../img/header.jpg')  #363f48 fixed center top;
     z-index: 999998;
     position: relative;
-    background-size: cover;}
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 #header .twelve.columns {
 	margin-top:10%;
