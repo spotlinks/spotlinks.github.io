@@ -563,7 +563,9 @@ form {
 
  .cbp-so-side-img {display: none; opacity: 1;}
  .cbp-so-side-video {display: block; opacity: 1; width: 100%!important; max-width: 100%; float: left;}
-
+ .cbp-so-side-video < iframe {
+ 	max-width: 100%;
+ }
 	.cbp-so-side-left img { float: none; }
 
 	h2 {font-size:1.5em}
