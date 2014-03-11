@@ -209,8 +209,11 @@ nav {
 	background:url('../img/header.jpg')  #363f48 fixed center top;
     z-index: 999998;
     position: relative;
-    background-size: cover;}
-
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 #header .twelve.columns {
 	margin-top:10%;
 	text-align: left; }
@@ -520,9 +523,7 @@ form {
 
 /* Styling for mobile devices */
 
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px) {
+@media only screen and (max-width : 767px) {
 
 	/* Display the mobile menu */
 
@@ -530,7 +531,7 @@ and (max-width : 568px) {
 
 	.cbp-af-header {display: none;}
 
-	#header {background:url('../img/header.jpg')  #363f48 fixed 0% 20% !important; height:450px;}
+	#header {background:url('../img/header.jpg')  #363f48 fixed 0% 0% !important; height:450px;}
 
 	#header .logo {text-align: center;}
 
@@ -560,7 +561,8 @@ and (max-width : 568px) {
 
 	.cbp-so-side img {text-align: center; opacity: 1;}
 
-	.cbp-so-side-video, .cbp-so-side-img {display: none; opacity: 1;}
+	 .cbp-so-side-img {display: none; opacity: 1;}
+ - .cbp-so-side-video {display: block; opacity: 1; width: 100%!important; max-width: 100%;}
 
 	.cbp-so-side-left img { float: none; }
 
@@ -602,7 +604,7 @@ and (max-width : 1024px) {
 
 	.cbp-af-header {display: none;}
 
-  	#header {background:url('../img/header.jpg')  #363f48 fixed 30% 0% !important; height:500px;}
+  	#header {background:url('../img/header.jpg')  #363f48 fixed 25% 0% !important; height:500px;}
 
 	#header .twelve.columns { margin-top:10%; text-align: center;  }
 
