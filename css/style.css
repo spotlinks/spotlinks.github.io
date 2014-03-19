@@ -569,7 +569,7 @@ form {
 	.cbp-so-side img {text-align: center; opacity: 1;}
 
 	 .cbp-so-side-img {display: none; opacity: 1;}
- - .cbp-so-side-video {display: block; opacity: 1; width: 100%!important; max-width: 100%;}
+ - .cbp-so-side-video {display: block; opacity: 1; width: 100% !important;float:left;}
 
 	.cbp-so-side-left img { float: none; }
 
