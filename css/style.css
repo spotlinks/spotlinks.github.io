@@ -230,9 +230,16 @@ nav {
 	padding:20px 0;}
 .fb-like {
 	margin-right: 20px;
+	float: right;
 }
 .fb-like span {
 	opacity: 1;
+}
+
+.twitter-follow-button {
+	float: right;
+	margin-right: 10px;
+	margin-top: 6px;
 }
 
 /* 04. CONTAINER SECTION ================================================== */
