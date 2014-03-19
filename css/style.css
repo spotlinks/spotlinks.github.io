@@ -558,7 +558,7 @@ form {
 
   	#footerSpacer {display: none;}
 
-  	.download-button {text-align: center; float: none; display: inline-block;  margin: 0 auto; }
+  	.download-button {text-align: center; float: inherit;  margin: 0 auto; }
 
 	#header .button, .button2 {font-size:12px; }
 
@@ -618,7 +618,7 @@ and (max-width : 1024px) {
 	#header h2 {font-size:2em}
 
 	#header .button {font-size:16px;}
-	.download-button {text-align: center; float: none; display: inline-block;  margin: 0 auto; }
+	.download-button {text-align: center; float: inherit; margin: 0 auto; }
   	#joinus {position: relative; bottom: auto;}
 
   	#signup {position: relative; bottom: auto;}
