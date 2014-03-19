@@ -570,7 +570,7 @@ form {
 
 	 .cbp-so-side-img {display: none; opacity: 1;}
 	 
-	 .cbp-so-side-video {display: inline-block!important; opacity: 1; min-width: 100%; width: 400px !important; float:left;}
+	 .cbp-so-side-video {display: inline-block!important; opacity: 1; min-width: 100%; width: 100% !important; float:left;}
 
 
 
